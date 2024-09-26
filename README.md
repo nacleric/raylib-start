@@ -1,16 +1,19 @@
-## Packaged everything idc
-mkdir build
-cd /build
+## Getting Started
+Make a build folder
 
-## Generate build files
-cmake ..
+`mkdir build`
 
-## Actually build
-cmake --build .
+`cd /build`
 
-## To run
+### Generate build files
+`cmake ..`
+
+### Actually build
+`cmake --build .`
+
+### To run
 Move to /build/debug
 ./raylib-start.exe
 
-## TODO
+### TODO
 Need to configure vscode debugger

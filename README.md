@@ -12,8 +12,11 @@ Make a build folder
 `cmake --build .`
 
 ### To run
-Move to /build/debug
-./raylib-start.exe
+Move to /build/debug on windows
+`./raylib-start.exe`
+
+On mac it should jsut be in the /build folder
+`./raylib-start`
 
 ### TODO
 Need to configure vscode debugger
